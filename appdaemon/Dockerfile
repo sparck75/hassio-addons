@@ -1,7 +1,8 @@
-FROM %%BASE_IMAGE%%
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
-ENV PATH /usr/src/app:$PATH
+#ENV PATH /usr/src/app:$PATH
 
 ###############################
 #RUN apk add --no-cache gcc musl-dev
@@ -22,8 +23,8 @@ ENV PATH /usr/src/app:$PATH
 ###############################
 #RUN apk -vv info|sort
 ###############################
-#RUN cp run.sh /
+COPY run.sh /
 #WORKDIR /
-RUN chmod +x run.sh
-CMD [ "./run.sh" ]
+RUN chmod +x /run.sh
+CMD [ "/run.sh" ]
 ###############################
