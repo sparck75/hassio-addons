@@ -22,8 +22,8 @@ ENV LANG C.UTF-8
 ###############################
 #RUN apk -vv info|sort
 ###############################
-RUN cp run.sh /
-WORKDIR /
-RUN chmod +x /run.sh
-CMD [ "/run.sh" ]
+#RUN cp run.sh /
+#WORKDIR /
+RUN chmod +x /dockerStart.sh
+CMD [ "/dockerStart.sh" ]
 ###############################
