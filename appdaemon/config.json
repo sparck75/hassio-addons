@@ -1,0 +1,20 @@
+{
+    "name": "AppDaemon",
+    "version": "latest",
+    "slug": "appdaemon",
+    "description": "AppDaemon version for Home Assistant (latest)",
+    "url": "https://github.com/sparck75/hassio-addons/appdaemon",
+    "startup": "after",
+    "image": "sparck75/{arch}-addon-appdaemon",
+    "boot": "auto",
+    "map": ["config:rw"],
+    "options": {
+        "domain": "0.0.0.0"
+    },
+    "schema": {
+        "domain": "str"
+    }, 
+    "ports": {
+        "80/tcp": 5050
+    }
+}
