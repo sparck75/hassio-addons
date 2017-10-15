@@ -22,7 +22,7 @@ ENV LANG C.UTF-8
 ###############################
 #RUN apk -vv info|sort
 ###############################
-COPY run.sh /
+RUN cp run.sh /
 WORKDIR /
 RUN chmod +x /run.sh
 CMD [ "/run.sh" ]
