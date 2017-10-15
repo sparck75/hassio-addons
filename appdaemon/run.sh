@@ -13,7 +13,6 @@ if [ ! -d ${CONFIG_DIR} ]; then
 fi
 
 echo 0.0.0.0 ${DOMAIN} >> /etc/hosts
-echo "Starting my hassio appdaemon test"
 
 appdaemon -c "$CONFIG_DIR" "$EXTRA_CMD"
 
