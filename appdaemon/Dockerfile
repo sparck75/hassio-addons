@@ -15,7 +15,7 @@ RUN apk add --no-cache jq git python3-dev \
 	&& rm -r /usr/lib/python*/ensurepip \
 	&& if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi \
 #	&& pip install git+https://github.com/home-assistant/appdaemon.git@master
-	&& pip install git+https://github.com/sparck75/appdaemon.git@dev
+	&& pip install git+https://github.com/sparck75/appdaemon.git@2.1.10
 
 ###############################
 # Listing installed APK
