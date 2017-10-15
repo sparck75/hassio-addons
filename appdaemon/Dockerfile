@@ -24,6 +24,6 @@ ENV LANG C.UTF-8
 ###############################
 #RUN cp run.sh /
 #WORKDIR /
-RUN chmod +x /dockerStart.sh
-CMD [ "/dockerStart.sh" ]
+RUN chmod +x dockerStart.sh
+CMD [ "./dockerStart.sh" ]
 ###############################

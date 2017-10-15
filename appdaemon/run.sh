@@ -14,5 +14,6 @@ fi
 
 echo 0.0.0.0 ${DOMAIN} >> /etc/hosts
 
+echo "Starting appdaemon from hassio-addons"
 appdaemon -c "$CONFIG_DIR" "$EXTRA_CMD"
 
