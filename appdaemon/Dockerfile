@@ -22,8 +22,8 @@ RUN apk add --no-cache jq git python3-dev \
 ###############################
 #RUN apk -vv info|sort
 ###############################
-
-WORKDIR /
-RUN chmod +x run.sh
-CMD [ "./run.sh" ]
+COPY run.sh /
+#WORKDIR /
+RUN chmod +x /run.sh
+CMD [ "/run.sh" ]
 ###############################
