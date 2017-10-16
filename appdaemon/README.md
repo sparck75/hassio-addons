@@ -1,6 +1,6 @@
 ## HASS AppDaemon Add-on for Hass.io
 
-This addon uses beta-branch of AppDaemon with HaDashboard v2. Please refer to [official repo](https://github.com/home-assistant/appdaemon) for configuration details.
+This addon uses beta-branch of AppDaemon with HaDashboard v2. Please refer to [official repo](https://github.com/home-assistant/appdaemon/tree/hadashboard_beta) for configuration details.
 
 You can configure following 2 options through UI (main config located at `/config/hadaemon` folder):
 
