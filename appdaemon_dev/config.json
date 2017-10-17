@@ -1,11 +1,11 @@
 {
-    "name": "AppDaemon-Dev",
+    "name": "AppDaemonDev",
     "version": "latest",
-    "slug": "appdaemon-dev",
+    "slug": "appdaemondev",
     "description": "AppDaemon version (dev) for Home Assistant/\Build using dev branc",
-    "url": "https://github.com/sparck75/hassio-addons/appdaemon",
+    "url": "https://github.com/sparck75/hassio-addons/appdaemon_dev",
     "startup": "after",
-    "image": "sparck75/{arch}-addon-appdaemon_dev",
+    "image": "sparck75/{arch}-addon-appdaemon-dev",
     "boot": "auto",
     "map": ["config:rw","addons:rw"],
     "options": {
