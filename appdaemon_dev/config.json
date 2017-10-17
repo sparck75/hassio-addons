@@ -3,7 +3,7 @@
     "version": "latest",
     "slug": "appdaemondev",
     "description": "AppDaemon version (dev) for Home Assistant/\Build using dev branch",
-    "url": "https://github.com/sparck75/hassio-addons/tree/master/appdaemon_dev",
+    "url": "https://github.com/sparck75/hassio-addons/appdaemon_dev",
     "startup": "after",
     "image": "sparck75/{arch}-addon-appdaemon-dev",
     "boot": "auto",
