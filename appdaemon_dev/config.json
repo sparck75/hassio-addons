@@ -9,7 +9,7 @@
     "map": ["config:rw","addons:rw","ssl"],
     "options": {
         "domain": "x.x.x.x",
-        "commtype": "SSE",
+        "commtype": "sse",
         "debugging": "none"
     },
     "schema": {
