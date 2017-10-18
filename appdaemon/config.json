@@ -10,7 +10,7 @@
     "options": {
         "domain": "x.x.x.x",
         "commtype": "sse",
-        "debugging": "none"
+        "debugging": "info"
     },
     "schema": {
         "domain": "str",

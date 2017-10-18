@@ -1,7 +1,7 @@
 FROM %%BASE_IMAGE%%
 
 ENV LANG C.UTF-8
-ENV PATH /usr/src/app:$PATH
+ENV PATH /usr/local/app:$PATH
 
 VOLUME /config
 VOLUME /ssl
