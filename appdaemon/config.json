@@ -2,7 +2,7 @@
     "name": "AppDaemon",
     "version": "1.2",
     "slug": "appdaemon",
-    "description": "AppDaemon version (2.1.10) for Home Assistant.",
+    "description": "AppDaemon version (2.1.10) for Hassio.",
     "url": "https://github.com/sparck75/hassio-addons/appdaemon",
     "startup": "after",
     "boot": "auto",
