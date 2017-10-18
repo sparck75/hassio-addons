@@ -18,14 +18,16 @@ if [ ! -d $CONFIG_DIR ]; then
 fi
 
 if [ ! $DEBUGGING == "DEBUG" ]; then
-	$EXTRA_CMD = "-D DEBUG"
+	EXTRA_CMD = "-D DEBUG"
 fi
 
 if [ $COMMTYPE == "SSE" ]; then
-	$EXTRA_CMD2 = "--commtype:SSE "
+	EXTRA_CMD2 = "--commtype:SSE "
 fi
 
 
 echo 0.0.0.0 $DOMAIN >> /etc/hosts
 
 appdaemon -c $CONFIG_DIR $EXTRA_CMD $EXTRA_CMD2
+
+
