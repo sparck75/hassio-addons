@@ -6,7 +6,7 @@
     "url": "https://github.com/sparck75/hassio-addons/appdaemon_dev",
     "startup": "after",
     "boot": "auto",
-    "map": ["config:rw","addons:rw"],
+    "map": ["config:rw","addons:rw","ssl"],
     "options": {
         "domain": "0.0.0.0"
     },
