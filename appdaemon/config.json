@@ -2,11 +2,11 @@
     "name": "AppDaemon",
     "version": "1.2",
     "slug": "appdaemon",
-    "description": "AppDaemon version (2.1.10) for Home Assistant/\nBuild using master branch",
+    "description": "AppDaemon version (2.1.10) for Home Assistant.  Build using master branch of appdaemon",
     "url": "https://github.com/sparck75/hassio-addons/appdaemon",
     "startup": "after",
     "boot": "auto",
-    "map": ["config:rw","addons:rw"],
+    "map": ["config:rw","addons:rw","ssl"],
     "options": {
         "domain": "0.0.0.0"
     },
