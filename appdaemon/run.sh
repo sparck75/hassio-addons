@@ -28,7 +28,7 @@ elif [ $DEBUGGING = "critical" ]; then
 elif [ $DEBUGGING = "none" ]; then
   EXTRA_CMD=" "
 else
-  echo "Invalid debugging option in config.json.\n Valid value are: debug, info, warning, error, critical, none"
+  echo "Invalid debugging option in config.json. Valid value are: (debug, info, warning, error, critical, none)"
   EXTRA_CMD=" "
 fi
 
@@ -37,7 +37,7 @@ if [ $COMMTYPE == "sse" ]; then
 elif [ $COMMTYPE == "websockets" ]; then
   EXTRA_CMD2="--commtype=WEBSOCKETS "  
 else
-  echo "Invalid commtype option in config.json.\n (Valid value are: websockets or sse"
+  echo "Invalid commtype option in config.json. Valid value are: (websockets or sse)"
   EXTRA_CMD2=" "
 fi
 echo 0.0.0.0 $DOMAIN >> /etc/hosts
