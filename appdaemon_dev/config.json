@@ -5,7 +5,6 @@
     "description": "AppDaemon version (dev) for Home Assistant/\Build using dev branch",
     "url": "https://github.com/sparck75/hassio-addons/appdaemon_dev",
     "startup": "after",
-    "image": "sparck75/{arch}-addon-appdaemon-dev",
     "boot": "auto",
     "map": ["config:rw","addons:rw"],
     "options": {
@@ -16,5 +15,6 @@
     }, 
     "ports": {
         "80/tcp": 5050
-    }
+    },
+    "image": "sparck75/{arch}-addon-appdaemon-dev"
 }

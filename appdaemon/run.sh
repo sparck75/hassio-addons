@@ -14,7 +14,7 @@ if [ ! -d $CONFIG_DIR ]; then
 fi
 
 echo 0.0.0.0 $DOMAIN >> /etc/hosts
-echo "Running dev branch of appdaemon"
+echo "Running master branch of appdaemon"
 echo "Use at your own risk"
 appdaemon -v
 appdaemon -c $CONFIG_DIR $EXTRA_CMD
