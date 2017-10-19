@@ -2,12 +2,10 @@
 
 [![Build Status](https://travis-ci.org/sparck75/HA-addons.svg?branch=master)](https://travis-ci.org/sparck75/HA-addons)
 
-## Docker status
+## Repository
 
-
-## Just code
-
-These add-ons are not being built intentionally as they are for testing purposes only. You'll need to download and place them under `/addons` folder of your Hass.io instance. 
+Use this link to add into Hassio.
+- https://github.com/sparck75/hassio-addons
 
 ## [AppDaemon](https://github.com/home-assistant/appdaemon)
 
