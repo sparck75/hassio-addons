@@ -24,34 +24,35 @@ Configuration options are:
 - Works only with port 5050.
 
 Access HADashboard 
-http://192.168.66.1:5050/MainPanel
+- http://192.168.66.1:5050/MainPanel
 
+.. code:: bash
 Here my configuration.yaml
-http:
-  server_port: 8123
-  base_url: xxxxxxx.duckdns.org:8123
-  ssl_certificate: /ssl/fullchain.pem
-  ssl_key: /ssl/privkey.pem
-  ip_ban_enabled: True
-  login_attempts_threshold: 5
-  api_password: !secret http_password
+	http:
+		server_port: 8123
+		base_url: xxxxxxx.duckdns.org:8123
+		ssl_certificate: /ssl/fullchain.pem
+		ssl_key: /ssl/privkey.pem
+		ip_ban_enabled: True
+		login_attempts_threshold: 5
+		api_password: !secret http_password
 
 Here's my appdaemon.yaml
-AppDaemon:
-  cert_verify: False
-  disable_apps: 0
-  logfile: STDOUT
-  errorfile: STDERR
-  threads: 10
-  dash_dir: /config/hadaemon/dashboards
-  app_dir: /config/hadaemon/apps
-  api_ssl_certificate: /ssl/fullchain.pem
-  api_ssl_key: /ssl/privkey.pem 
-HASS:
-  ha_url: https://192.168.66.1:8123
-  ha_ssl_certificate: /ssl/fulchain.pem
-  ha_ssl_key: /ssl/privkey.pem
-  ha_key: !secret hadash_password
-HADashboard:
-  dash_url: http://192.168.66.1
-  dash_compile_on_start: 1
+	AppDaemon:
+		cert_verify: False
+		disable_apps: 0
+		logfile: STDOUT
+		errorfile: STDERR
+		threads: 10
+		dash_dir: /config/hadaemon/dashboards
+		app_dir: /config/hadaemon/apps
+		api_ssl_certificate: /ssl/fullchain.pem
+		api_ssl_key: /ssl/privkey.pem 
+	HASS:
+		ha_url: https://192.168.66.1:8123
+		ha_ssl_certificate: /ssl/fulchain.pem
+		ha_ssl_key: /ssl/privkey.pem
+		ha_key: !secret hadash_password
+	HADashboard:
+		dash_url: http://192.168.66.1
+		dash_compile_on_start: 1
