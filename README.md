@@ -26,7 +26,7 @@ Configuration options are:
 Access HADashboard 
 - http://192.168.66.1:5050/MainPanel
 
-.. code:: bash
+```
 Here my configuration.yaml
 	http:
 		server_port: 8123
@@ -56,3 +56,4 @@ Here's my appdaemon.yaml
 	HADashboard:
 		dash_url: http://192.168.66.1
 		dash_compile_on_start: 1
+```		
