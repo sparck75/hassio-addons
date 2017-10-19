@@ -1,4 +1,4 @@
-## Hass.io plugins
+## Hass.io AppDaemon plugins
 
 [![Build Status](https://travis-ci.org/sparck75/HA-addons.svg?branch=master)](https://travis-ci.org/sparck75/HA-addons)
 
@@ -13,7 +13,7 @@ These add-ons are not being built intentionally as they are for testing purposes
 
 Beta-version of AppDaemon with HaDashobard v2.
 
-## Usefull commands
+## Configuration Options
 
 Configuration options are:
         "domain":  "192.168.66.1":  I use my internal IP (192.168.x.x)
@@ -23,8 +23,8 @@ Configuration options are:
 - Ensure you have move all the apps definition from appdaemon.yaml to a file called the apps.yaml in your /config/hadaemon folder.
 - Works only with port 5050.
 
-Access HADashboard 
-- http://192.168.66.1:5050/MainPanel
+Access your HADashboard 
+- http://192.168.66.1:5050
 
 ```
 Here my configuration.yaml
