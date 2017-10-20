@@ -8,23 +8,29 @@ Use this link to add into Hassio.
 ## Hass.io AppDaemon plugins build information
 
 [![Build Status](https://travis-ci.org/sparck75/HA-addons.svg?branch=1.3)](https://travis-ci.org/sparck75/HA-addons)
-Build information
+Build information.
+
+[![](https://images.microbadger.com/badges/image/homeassistant/docker-build-env.svg)](https://microbadger.com/images/homeassistant/docker-build-env "Get your own image badge on microbadger.com")
+Build image use this docker-build-env image.
+
+
+
 ## Base image information
 [![](https://images.microbadger.com/badges/image/homeassistant/armhf-base.svg)](https://microbadger.com/images/homeassistant/armhf-base "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/armhf-base.svg)](https://microbadger.com/images/homeassistant/armhf-base "Get your own version badge on microbadger.com")
-armhf
+: armhf
 
 [![](https://images.microbadger.com/badges/image/homeassistant/aarch64-base.svg)](https://microbadger.com/images/homeassistant/aarch64-base "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/aarch64-base.svg)](https://microbadger.com/images/homeassistant/aarch64-base "Get your own version badge on microbadger.com")
-aarch64
+: aarch64
 
 [![](https://images.microbadger.com/badges/image/homeassistant/amd64-base.svg)](https://microbadger.com/images/homeassistant/amd64-base "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/amd64-base.svg)](https://microbadger.com/images/homeassistant/amd64-base "Get your own version badge on microbadger.com")
-amd64
+: amd64
 
 [![](https://images.microbadger.com/badges/image/homeassistant/i386-base.svg)](https://microbadger.com/images/homeassistant/i386-base "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/i386-base.svg)](https://microbadger.com/images/homeassistant/i386-base "Get your own version badge on microbadger.com")
-i386
+; i386
 ## Docker Image Information
 
 [![](https://images.microbadger.com/badges/image/sparck75/armhf-addon-appdaemon:1.3.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon:1.3 "Get your own image badge on microbadger.com")
@@ -43,11 +49,12 @@ AppDaemonDev
 
 - Configuration options are:
 ```
-        "domain":  "192.168.66.1":  I use my internal IP (192.168.x.x)
-        "commtype":    "sse":  2 choices:  websockets, sse
-        "debugging":  "info":  (debug, info, warning, error, critical, none)
+        "domain":  "0.0.0.0":  I use my internal IP (192.168.66.1)
+        "commtype":    "sse":      (websockets, sse)
+        "debugging":  "info":      (debug, info, warning, error, critical, none)
 ```
 - Ensure you have move all the apps definition from appdaemon.yaml to a file called the apps.yaml in your /config/hadaemon folder.
+
 - Works only with port 5050.
 
 - Access your HADashboard 
