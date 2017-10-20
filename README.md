@@ -11,9 +11,8 @@ Use this link to add into Hassio.
 Build information.
 
 [![](https://images.microbadger.com/badges/image/homeassistant/docker-build-env.svg)](https://microbadger.com/images/homeassistant/docker-build-env "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/homeassistant/docker-build-env.svg)](https://microbadger.com/images/homeassistant/docker-build-env "Get your own version badge on microbadger.com")
 Build image use this docker-build-env image.
-
-
 
 ## Base image information
 [![](https://images.microbadger.com/badges/image/homeassistant/armhf-base.svg)](https://microbadger.com/images/homeassistant/armhf-base "Get your own image badge on microbadger.com")
@@ -30,7 +29,7 @@ Build image use this docker-build-env image.
 
 [![](https://images.microbadger.com/badges/image/homeassistant/i386-base.svg)](https://microbadger.com/images/homeassistant/i386-base "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/i386-base.svg)](https://microbadger.com/images/homeassistant/i386-base "Get your own version badge on microbadger.com")
-; i386
+: i386
 ## Docker Image Information
 
 [![](https://images.microbadger.com/badges/image/sparck75/armhf-addon-appdaemon:1.3.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon:1.3 "Get your own image badge on microbadger.com")
@@ -41,17 +40,13 @@ AppDaemon
 [![](https://images.microbadger.com/badges/version/sparck75/armhf-addon-appdaemon.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon "Get your own version badge on microbadger.com")
 AppDaemonDev
 
-
-
-
-
 ## Configuration Options
 
 - Configuration options are:
 ```
-        "domain":  "0.0.0.0":  I use my internal IP (192.168.66.1)
-        "commtype":    "sse":      (websockets, sse)
-        "debugging":  "info":      (debug, info, warning, error, critical, none)
+        "domain":  "0.0.0.0":  (192.168.66.1) - I use my internal IP 
+        "commtype":    "sse":  (websockets, sse) - I use sse
+        "debugging":  "info":  (debug, info, warning, error, critical, none)
 ```
 - Ensure you have move all the apps definition from appdaemon.yaml to a file called the apps.yaml in your /config/hadaemon folder.
 
