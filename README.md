@@ -2,6 +2,9 @@
 
 AppDaemon 2.1.10 with HaDashboard v2.
 
+Use this link to add into Hassio.
+- https://github.com/sparck75/hassio-addons
+
 ## Hass.io AppDaemon plugins build information
 
 [![Build Status](https://travis-ci.org/sparck75/HA-addons.svg?branch=1.3)](https://travis-ci.org/sparck75/HA-addons)
@@ -23,17 +26,16 @@ amd64
 [![](https://images.microbadger.com/badges/version/homeassistant/i386-base.svg)](https://microbadger.com/images/homeassistant/i386-base "Get your own version badge on microbadger.com")
 i386
 ## Docker Image Information
-- 
+
 [![](https://images.microbadger.com/badges/image/sparck75/armhf-addon-appdaemon:1.3.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon:1.3 "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/sparck75/armhf-addon-appdaemon:1.3.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon:1.3 "Get your own version badge on microbadger.com")
 AppDaemon
--
+
 [![](https://images.microbadger.com/badges/image/sparck75/armhf-addon-appdaemon.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/sparck75/armhf-addon-appdaemon.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon "Get your own version badge on microbadger.com")
 AppDaemonDev
 
-Use this link to add into Hassio.
-- https://github.com/sparck75/hassio-addons
+
 
 
 
