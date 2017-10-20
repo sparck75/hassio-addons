@@ -34,8 +34,9 @@ AppDaemon 2.1.10 with HaDashboard v2.
 Access your HADashboard 
 - http://192.168.66.1:5050
 
-```
+
 Here my configuration.yaml
+```
 	http:
 		server_port: 8123
 		base_url: xxxxxxx.duckdns.org:8123
@@ -44,8 +45,9 @@ Here my configuration.yaml
 		ip_ban_enabled: True
 		login_attempts_threshold: 5
 		api_password: !secret http_password
-
+```
 Here's my appdaemon.yaml
+```
 	AppDaemon:
 		cert_verify: False
 		disable_apps: 0
