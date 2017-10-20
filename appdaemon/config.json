@@ -18,7 +18,7 @@
         "debugging": "str"
     }, 
     "ports": {
-        "5050/tcp": 5050
+        "80/tcp": 5050
     },
 	"image": "sparck75/{arch}-addon-appdaemon"
 }
