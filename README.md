@@ -13,7 +13,6 @@ Build repository for hassio-addons.
 [![](https://images.microbadger.com/badges/image/homeassistant/docker-build-env.svg)](https://microbadger.com/images/homeassistant/docker-build-env "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/docker-build-env.svg)](https://microbadger.com/images/homeassistant/docker-build-env "Get your own version badge on microbadger.com")
 homeassistant/docker-build-env
-Build image use this docker-build-env image.
 
 ## Base image information
 [![](https://images.microbadger.com/badges/image/homeassistant/armhf-base.svg)](https://microbadger.com/images/homeassistant/armhf-base "Get your own image badge on microbadger.com")
