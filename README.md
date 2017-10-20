@@ -1,6 +1,11 @@
 ## Hass.io AppDaemon plugins
 
-[![Build Status](https://travis-ci.org/sparck75/HA-addons.svg?branch=master)](https://travis-ci.org/sparck75/HA-addons)
+[![Build Status](https://travis-ci.org/sparck75/HA-addons.svg?branch=1.3)](https://travis-ci.org/sparck75/HA-addons)
+
+## Docker Image Information
+
+[![](https://images.microbadger.com/badges/image/sparck75/armhf-addon-appdaemon:1.3.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon:1.3 "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/sparck75/armhf-addon-appdaemon:1.3.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon:1.3 "Get your own version badge on microbadger.com")
 
 ## Repository
 
@@ -13,18 +18,19 @@ Beta-version of AppDaemon with HaDashobard v2.
 
 ## Configuration Options
 
-Configuration options are:
+- Configuration options are:
+``
         "domain":  "192.168.66.1":  I use my internal IP (192.168.x.x)
         "commtype":    "sse":  2 choices:  websockets, sse
         "debugging":  "info":  (debug, info, warning, error, critical, none)
-		
+``	
 - Ensure you have move all the apps definition from appdaemon.yaml to a file called the apps.yaml in your /config/hadaemon folder.
 - Works only with port 5050.
 
 Access your HADashboard 
 - http://192.168.66.1:5050
 
-```
+``
 Here my configuration.yaml
 	http:
 		server_port: 8123
