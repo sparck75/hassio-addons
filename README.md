@@ -1,13 +1,13 @@
-## Hass.io AppDaemon plugins
+## Hass.io AppDaemon plugins build information
 
 [![Build Status](https://travis-ci.org/sparck75/HA-addons.svg?branch=1.3)](https://travis-ci.org/sparck75/HA-addons)
 
 ## Docker Image Information
-AppDaemon
+- AppDaemon
 [![](https://images.microbadger.com/badges/image/sparck75/armhf-addon-appdaemon:1.3.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon:1.3 "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/sparck75/armhf-addon-appdaemon:1.3.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon:1.3 "Get your own version badge on microbadger.com")
 
-AppDaemonDev
+- AppDaemonDev
 [![](https://images.microbadger.com/badges/image/sparck75/armhf-addon-appdaemon.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/sparck75/armhf-addon-appdaemon.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon "Get your own version badge on microbadger.com")
 
@@ -31,11 +31,12 @@ AppDaemon 2.1.10 with HaDashboard v2.
 - Ensure you have move all the apps definition from appdaemon.yaml to a file called the apps.yaml in your /config/hadaemon folder.
 - Works only with port 5050.
 
-Access your HADashboard 
-- http://192.168.66.1:5050
+- Access your HADashboard 
+``
+http://192.168.66.1:5050
+``
 
-
-Here my configuration.yaml
+- Here my configuration.yaml
 ```
 	http:
 		server_port: 8123
@@ -46,7 +47,7 @@ Here my configuration.yaml
 		login_attempts_threshold: 5
 		api_password: !secret http_password
 ```
-Here's my appdaemon.yaml
+- Here's my appdaemon.yaml
 ```
 	AppDaemon:
 		cert_verify: False
