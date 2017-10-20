@@ -5,16 +5,16 @@ AppDaemon 2.1.10 with HaDashboard v2.
 Use this link to add into Hassio.
 - https://github.com/sparck75/hassio-addons
 
-## Hass.io AppDaemon plugins build information
+## Hass.io plugins build information for sparck75 repository
 
 [![Build Status](https://travis-ci.org/sparck75/HA-addons.svg?branch=1.3)](https://travis-ci.org/sparck75/HA-addons)
-Build repository for hassio-addons.
+: Build repository for hassio-addons.
 
 [![](https://images.microbadger.com/badges/image/homeassistant/docker-build-env.svg)](https://microbadger.com/images/homeassistant/docker-build-env "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/docker-build-env.svg)](https://microbadger.com/images/homeassistant/docker-build-env "Get your own version badge on microbadger.com")
-homeassistant/docker-build-env
+: homeassistant/docker-build-env
 
-## Base image information
+## Base Image Information
 [![](https://images.microbadger.com/badges/image/homeassistant/armhf-base.svg)](https://microbadger.com/images/homeassistant/armhf-base "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/armhf-base.svg)](https://microbadger.com/images/homeassistant/armhf-base "Get your own version badge on microbadger.com")
 : homeassistant/armhf-base
@@ -30,15 +30,15 @@ homeassistant/docker-build-env
 [![](https://images.microbadger.com/badges/image/homeassistant/i386-base.svg)](https://microbadger.com/images/homeassistant/i386-base "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/i386-base.svg)](https://microbadger.com/images/homeassistant/i386-base "Get your own version badge on microbadger.com")
 : homeassistant/i386-base
-## Docker Image Information
+## Addons Docker Image Information
 
 [![](https://images.microbadger.com/badges/image/sparck75/armhf-addon-appdaemon:1.3.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon:1.3 "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/sparck75/armhf-addon-appdaemon:1.3.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon:1.3 "Get your own version badge on microbadger.com")
-AppDaemon
+: AppDaemon
 
 [![](https://images.microbadger.com/badges/image/sparck75/armhf-addon-appdaemon.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/sparck75/armhf-addon-appdaemon.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon "Get your own version badge on microbadger.com")
-AppDaemonDev
+: AppDaemonDev
 
 ## Configuration Options
 
