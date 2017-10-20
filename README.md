@@ -8,28 +8,29 @@ Use this link to add into Hassio.
 ## Hass.io AppDaemon plugins build information
 
 [![Build Status](https://travis-ci.org/sparck75/HA-addons.svg?branch=1.3)](https://travis-ci.org/sparck75/HA-addons)
-Build information.
+Build repository for hassio-addons.
 
 [![](https://images.microbadger.com/badges/image/homeassistant/docker-build-env.svg)](https://microbadger.com/images/homeassistant/docker-build-env "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/docker-build-env.svg)](https://microbadger.com/images/homeassistant/docker-build-env "Get your own version badge on microbadger.com")
+homeassistant/docker-build-env
 Build image use this docker-build-env image.
 
 ## Base image information
 [![](https://images.microbadger.com/badges/image/homeassistant/armhf-base.svg)](https://microbadger.com/images/homeassistant/armhf-base "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/armhf-base.svg)](https://microbadger.com/images/homeassistant/armhf-base "Get your own version badge on microbadger.com")
-: armhf
+: homeassistant/armhf-base
 
 [![](https://images.microbadger.com/badges/image/homeassistant/aarch64-base.svg)](https://microbadger.com/images/homeassistant/aarch64-base "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/aarch64-base.svg)](https://microbadger.com/images/homeassistant/aarch64-base "Get your own version badge on microbadger.com")
-: aarch64
+: homeassistant/aarch64-base
 
 [![](https://images.microbadger.com/badges/image/homeassistant/amd64-base.svg)](https://microbadger.com/images/homeassistant/amd64-base "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/amd64-base.svg)](https://microbadger.com/images/homeassistant/amd64-base "Get your own version badge on microbadger.com")
-: amd64
+: homeassistant/amd64-base
 
 [![](https://images.microbadger.com/badges/image/homeassistant/i386-base.svg)](https://microbadger.com/images/homeassistant/i386-base "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/homeassistant/i386-base.svg)](https://microbadger.com/images/homeassistant/i386-base "Get your own version badge on microbadger.com")
-: i386
+: homeassistant/i386-base
 ## Docker Image Information
 
 [![](https://images.microbadger.com/badges/image/sparck75/armhf-addon-appdaemon:1.3.svg)](https://microbadger.com/images/sparck75/armhf-addon-appdaemon:1.3 "Get your own image badge on microbadger.com")
