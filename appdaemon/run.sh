@@ -14,6 +14,19 @@ if [ ! -d $CONFIG_DIR ]; then
 	cp /etc/apps-example.yaml $CONFIG_DIR/apps.yaml
 fi
 
+if [ ! -d $CONFIG_DIR/compiled ]; then
+	mkdir -p $CONFIG_DIR/compiled
+fi
+if [ ! -d $CONFIG_DIR/compiled/css ]; then
+	mkdir -p $CONFIG_DIR/compiled/css
+fi
+if [ ! -d $CONFIG_DIR/compiled/javascript ]; then
+	mkdir -p $CONFIG_DIR/compiled/javascript
+fi
+if [ ! -d $CONFIG_DIR/compiled/html ]; then
+	mkdir -p $CONFIG_DIR/compiled/html
+fi
+
 
 if [ $DEBUGGING = "debug" ]; then
   EXTRA_CMD="-D DEBUG"
