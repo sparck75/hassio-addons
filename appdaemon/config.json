@@ -1,6 +1,6 @@
 {
     "name": "AppDaemon",
-    "version": "1.3",
+    "version": "1.4",
     "slug": "appdaemon",
     "description": "AppDaemon version (2.1.10) for Hassio.",
     "url": "https://github.com/sparck75/hassio-addons/appdaemon",

@@ -7,7 +7,7 @@ Use this link to add into Hassio.
 
 ## Hass.io plugins build information for sparck75 repository
 
-[![Build Status](https://travis-ci.org/sparck75/HA-addons.svg?branch=1.3)](https://travis-ci.org/sparck75/HA-addons)
+[![Build Status](https://travis-ci.org/sparck75/HA-addons.svg?branch=1.4)](https://travis-ci.org/sparck75/HA-addons)
 : Build repository for hassio-addons.
 
 [![](https://images.microbadger.com/badges/image/homeassistant/docker-build-env.svg)](https://microbadger.com/images/homeassistant/docker-build-env "Get your own image badge on microbadger.com")
