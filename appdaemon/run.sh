@@ -12,6 +12,16 @@ if [ ! -d $CONFIG_DIR ]; then
 	mkdir -p $CONFIG_DIR
 	cp /etc/appdaemon-example.yaml $CONFIG_DIR/appdaemon.yaml
 	cp /etc/apps-example.yaml $CONFIG_DIR/apps.yaml
+
+	if [ ! -d $CONFIG_DIR/dashboards ]; then
+		mkdir -p $CONFIG_DIR/dashboards
+		cp /etc/Hello.dash $CONFIG_DIR/dashboards/Hello.dash
+	fi
+
+	if [ ! -d $CONFIG_DIR/apps ]; then
+		mkdir -p $CONFIG_DIR/dashboards
+		cp /etc/hello.py $CONFIG_DIR/apps/hello.py
+	fi	
 fi
 
 if [ ! -d $CONFIG_DIR/compiled ]; then

@@ -1,6 +1,6 @@
 AppDaemon:
   cert_verify: False
-  disable_apps: 1
+  disable_apps: 0
   logfile: STDOUT
   errorfile: STDERR
   threads: 10
